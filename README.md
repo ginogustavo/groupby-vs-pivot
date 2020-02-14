@@ -1,2 +1,14 @@
-# groupby-vs-pivot
-Aggregate function for Group by and Pivot
+### Group by vs Pivot
+
+Given a table of Sales, use aggregate functions to show:
+- Total number of ordered products per customer
+- First time a customer ordered each product.
+
+|  OrderNum | ProdID | Name|Number of products | CustName |OrderDate |
+| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+|1|42|Gum|2|Lisa|8/14/2019|
+|1|999|Coffee|1|Lisa|8/14/2019|
+|2|999|Coffee|3|Lisa|8/21/2019|
+|3|42|Gum|1|Ben|8/17/2019|
+|3|999|Coffee|1|Ben|8/17/2019|
+|4|42|Gum|1|Ben|8/22/2019|
